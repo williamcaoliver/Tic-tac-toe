@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+
+body {
+    font: 25px "Tangerine", Futura, sans-serif;
+    margin: 20px;
+    text-shadow: 4px 4px 4px #aaa;
+    
+  }
+  
+  ol, ul {
+    padding-left: 30px;
+  }
+  
+  .board-row::after{
+    clear: both;
+    content: "";
+    display: table;
+    
+  }
+  
+  .status {
+    margin-bottom: 10px;
+  }
+  
+  .square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 34px;
+    border-radius: 50%;
+
+  }
+  
+  .square:focus {
+    outline:auto;
+  }
+  
+  .kbd-navigation .square:focus {
+    background: #ddd;
+  }
+  
+  .game {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 200px;
+    margin: auto;
+    border-radius: 10px;
+    border: 3px dashed #1c87c9;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+    
+  }
+  
+  .game-info {
+    margin-left: 20px;
+  }
+  
